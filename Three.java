@@ -4,6 +4,8 @@ public class Three {
         String t = "nagaram";
         boolean result = new Three().isAnagram(s, t);
         System.out.println("Are the two strings anagrams? " + result);
+
+        
     }         
         public boolean isAnagram(String s, String t) {
 
